@@ -1,0 +1,8 @@
+Listar
+docker container ps
+
+Abrir consola 
+docker exec -it 0e282cc9030f bash
+
+Conectarse a PostgreSQL
+psql -U postgres
