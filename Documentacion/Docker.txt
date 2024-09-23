@@ -2,7 +2,19 @@ Listar
 docker container ps
 
 Abrir consola 
-docker exec -it 0e282cc9030f bash
+docker exec -it 27367cc0f615 bash
 
 Conectarse a PostgreSQL
 psql -U postgres
+
+Listar las bases de datos existentes
+\l
+Salir del lista
+q
+
+Conectarse a la base de datos
+\c CatalogDb
+
+Listar las tablas
+\d
+

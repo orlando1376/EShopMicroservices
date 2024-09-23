@@ -10,8 +10,10 @@
         {
             app.MapPost("/products", async (CreateProductRequest request, ISender sender) =>
             {
+                // convertir objeto a travez de Mapster
                 var command = request.Adapt<CreateProductCommand>();
 
+                // Enviar solicitud a tavez de MediatR
                 var result = await sender.Send(command);
 
                 var response = result.Adapt<CreateProductResponse>();

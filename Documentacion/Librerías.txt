@@ -1,5 +1,5 @@
 . Carter, básicamente nos simplifica el enrutamiento y la gestión de las solicitudes.
-. Marten, Convierte PostgreSQL en una base de datos documental transaccional
+. Marten, ORM qie convierte PostgreSQL en una base de datos documental transaccional
 . MediatR, se encargará de las peticionesy  notificaciones.
 . Fluent Validation, garantizará que nuestras entradas sean correctas
 . Mapster, se encargará de nuestras asignaciones de objetos, mapeo de clases DTO
