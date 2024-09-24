@@ -1,0 +1,8 @@
+Browser
+https://sqlitebrowser.org/
+
+Adicionar migración
+Add-Migration InitialCreate
+
+Aplicar migración en la base de datos
+Update-Database
