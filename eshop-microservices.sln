@@ -20,12 +20,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentacion", "Documentac
 		Documentacion\Docker.txt = Documentacion\Docker.txt
 		Documentacion\dotnet+8+slides.pdf = Documentacion\dotnet+8+slides.pdf
 		Documentacion\Librerías.txt = Documentacion\Librerías.txt
+		Documentacion\Redis.txt = Documentacion\Redis.txt
 		Documentacion\Url fuentes.txt = Documentacion\Url fuentes.txt
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{D007B75B-5026-4CC4-A971-51A6F1EFF60C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basket.API", "Services\Basket\Basket.API\Basket.API.csproj", "{48502B57-AAB2-4072-91F5-51D28DD939A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basket.API", "Services\Basket\Basket.API\Basket.API.csproj", "{48502B57-AAB2-4072-91F5-51D28DD939A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

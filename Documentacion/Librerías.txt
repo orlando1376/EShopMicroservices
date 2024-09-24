@@ -5,6 +5,9 @@
 . Mapster, se encargará de nuestras asignaciones de objetos, mapeo de clases DTO
 . Masstransit, abstraerá la complejidad de los intermediarios de mensajes asi RabbitMQ
 . EF Core, Refit
+. Scrutor, amplia el contendor IOC de ASP.NET Core, 
+  proporcioando capacidades adicionales para escanear y registrar servicios de forma mas flexible.
+  También es útil para implementar el patrón decorador de una forma limpia y manejable
 
 Telemetría
 . Grafana
