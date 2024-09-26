@@ -23,7 +23,7 @@
         }
 
         /// <summary>
-        /// Crea una nueva Orden
+        /// Crea un pedido
         /// </summary>
         /// <param name="id"></param>
         /// <param name="customerId"></param>
@@ -52,7 +52,7 @@
         }
 
         /// <summary>
-        /// Actualiza una Orden
+        /// Actualiza un pedido
         /// </summary>
         /// <param name="orderName"></param>
         /// <param name="shippingAddress"></param>
@@ -72,7 +72,7 @@
         }
 
         /// <summary>
-        /// Adiciona un producto a la Orden
+        /// Adiciona un producto al pedido
         /// </summary>
         /// <param name="productId"></param>
         /// <param name="quantity"></param>
@@ -87,7 +87,7 @@
         }
 
         /// <summary>
-        /// Borra un produecto de la Orden
+        /// Borra un produecto del pedido
         /// </summary>
         /// <param name="productId"></param>
         public void Remove(ProductId productId)

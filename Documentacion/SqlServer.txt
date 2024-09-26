@@ -1,0 +1,7 @@
+
+Adicionar migración
+.Instalar nuget "Microsoft.EntityFrameworkCore.Design" en "Ordering.API"
+.Establecer como proyecto de inicio "Ordering.API"
+.En la consola de Administración de paquetes dejar como proyecto predeterminado "Ordering.Infrastructure"
+Add-Migration InitialCreate2 -OutputDir Data/Migrations -Project Ordering.Infrastructure -StartupProject Ordering.Api
+Update-Database
