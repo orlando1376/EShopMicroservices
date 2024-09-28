@@ -11,7 +11,7 @@
                     .Include(o => o.OrderItems)
                     .AsNoTracking()
                     .Where(o => o.OrderName.Value.Contains(query.Name))
-                    .OrderBy(o => o.OrderName)
+                    .OrderBy(o => o.OrderName.Value)
                     .ToListAsync(cancellationToken);
 
             // se utiliza el método de extensión ToOrderDtoList para convertir la clase de Order de dominio a OrderDto

@@ -17,6 +17,7 @@ Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-co
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentacion", "Documentacion", "{225592F0-4AD6-44A6-A4E6-12758423429E}"
 	ProjectSection(SolutionItems) = preProject
+		Documentacion\CleanArchitecture Ordering.API.jpg = Documentacion\CleanArchitecture Ordering.API.jpg
 		Documentacion\Docker.txt = Documentacion\Docker.txt
 		Documentacion\dotnet+8+slides.pdf = Documentacion\dotnet+8+slides.pdf
 		Documentacion\EShopMicroservices.postman_collection.json = Documentacion\EShopMicroservices.postman_collection.json
@@ -24,6 +25,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentacion", "Documentac
 		Documentacion\Puertos.jpg = Documentacion\Puertos.jpg
 		Documentacion\Redis.txt = Documentacion\Redis.txt
 		Documentacion\Sqlite.txt = Documentacion\Sqlite.txt
+		Documentacion\SqlServer.txt = Documentacion\SqlServer.txt
 		Documentacion\Url fuentes.txt = Documentacion\Url fuentes.txt
 	EndProjectSection
 EndProject
@@ -35,13 +37,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.Grpc", "Services\D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ordering", "Ordering", "{B90A5304-534D-471F-A7B0-DF3B990DF3D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.API", "Services\Ordering\Ordering.API\Ordering.API.csproj", "{EE0CB940-D44C-42F1-9364-D6E13386F61A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.API", "Services\Ordering\Ordering.API\Ordering.API.csproj", "{EE0CB940-D44C-42F1-9364-D6E13386F61A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Domain", "Services\Ordering\Ordering.Domain\Ordering.Domain.csproj", "{F1C177FA-7163-4318-A32E-CD55D0E4EABC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Domain", "Services\Ordering\Ordering.Domain\Ordering.Domain.csproj", "{F1C177FA-7163-4318-A32E-CD55D0E4EABC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Application", "Services\Ordering\Ordering.Application\Ordering.Application.csproj", "{B1382FFE-FF25-49AE-8A2B-1BBA6D5FC04E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Application", "Services\Ordering\Ordering.Application\Ordering.Application.csproj", "{B1382FFE-FF25-49AE-8A2B-1BBA6D5FC04E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Infrastructure", "Services\Ordering\Ordering.Infrastructure\Ordering.Infrastructure.csproj", "{CCF4796C-EC96-4EB6-85F6-C967C98552E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Infrastructure", "Services\Ordering\Ordering.Infrastructure\Ordering.Infrastructure.csproj", "{CCF4796C-EC96-4EB6-85F6-C967C98552E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
