@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services
-    .AddApplicationServices() // Registra el MediatR para que la capa de infraestructura lo pueda utilizar
+    .AddApplicationServices(builder.Configuration)
     .AddInfrastructureServices(builder.Configuration) // Registra el dbContex y añadir interceptors
     .AddApiServices(builder.Configuration);
 
