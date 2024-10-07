@@ -10,6 +10,7 @@ builder.Services.AddReverseProxy()
 
 builder.Services.AddRateLimiter(rateLimiterOptions =>
 {
+    // el nombre de la política es: fixed
     rateLimiterOptions.AddFixedWindowLimiter("fixed", options =>
     {
         options.Window = TimeSpan.FromSeconds(10);
